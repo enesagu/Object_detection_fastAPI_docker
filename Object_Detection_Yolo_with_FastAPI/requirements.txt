@@ -11,7 +11,11 @@ colorama==0.4.6
 coloredlogs==15.0.1
 contourpy==1.2.0
 cycler==0.12.1
+
+# FastAPI ve Starlette uyumlu
 fastapi==0.115.11
+starlette==0.46.0
+
 filelock==3.13.1
 Flask==3.0.2
 flatbuffers==23.5.26
@@ -46,7 +50,10 @@ opt-einsum==3.3.0
 packaging==23.2
 pandas==2.2.0
 pillow==10.3.0
-protobuf==4.25.8
+
+# TensorFlow uyumlu protobuf
+protobuf==4.23.4
+
 psutil==5.9.8
 py-cpuinfo==9.0.0
 pyasn1==0.5.1
@@ -66,8 +73,10 @@ scipy==1.12.0
 seaborn==0.13.2
 six==1.16.0
 sniffio==1.3.0
-starlette==0.49.1
-sympy==1.12
+
+# Ultralytics uyumlu sympy
+sympy==1.13.3
+
 tensorboard==2.15.1
 tensorboard-data-server==0.7.2
 tensorflow==2.15.0
@@ -75,13 +84,22 @@ tensorflow-estimator==2.15.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.4.0
 thop==0.1.1.post2209072238
-torch==2.7.1
+
+# Torch & Torchvision zorunlu eşleşme
+torch==2.2.0
 torchvision==0.17.0
+
 tqdm==4.66.3
-typing_extensions==4.9.0
+
+# Typing extensions güncel
+typing_extensions==4.10.0
+
 tzdata==2023.4
 ultralytics==8.1.9
 urllib3==2.5.0
 uvicorn==0.27.0.post1
 Werkzeug==3.0.6
 wrapt==1.14.1
+
+# Python 3.10 uyumluluğu için gerekli
+exceptiongroup==1.3.0
