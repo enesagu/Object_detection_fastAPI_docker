@@ -49,7 +49,7 @@ opencv-python==4.9.0.80
 opt-einsum==3.3.0
 packaging==23.2
 pandas==2.2.0
-pillow==10.3.0
+pillow==12.1.1
 
 # TensorFlow uyumlu protobuf
 protobuf==4.23.4
