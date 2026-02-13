@@ -86,7 +86,7 @@ termcolor==2.4.0
 thop==0.1.1.post2209072238
 
 # Torch & Torchvision zorunlu eşleşme
-torch==2.2.0
+torch==2.8.0
 torchvision==0.17.0
 
 tqdm==4.66.3
